@@ -1,6 +1,0 @@
----
-- name: Official RHEL 8 STIG DEMO
-  hosts: stig
-  become: true
-  roles: 
-    - ansible-role-rhel8-stig

@@ -4,4 +4,3 @@
   become: true
   roles: 
     - rhel8stigdemo
-#    - ansible-role-rhel8-stig
