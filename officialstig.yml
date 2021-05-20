@@ -1,5 +1,5 @@
 ---
-- name: RHEL 8 STIG DEMO
+- name: Official RHEL 8 STIG DEMO
   hosts: stig
   become: true
   roles: 
