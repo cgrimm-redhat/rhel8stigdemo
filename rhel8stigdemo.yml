@@ -3,4 +3,5 @@
   hosts: stig
   become: true
   roles: 
-    - ansible-role-rhel8-stig
+    - rhel8stigdemo
+#    - ansible-role-rhel8-stig
