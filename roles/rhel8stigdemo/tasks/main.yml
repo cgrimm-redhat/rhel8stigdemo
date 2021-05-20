@@ -4,10 +4,10 @@
   template:
     src: motd.j2
     dest: /etc/motd
-  when: "{{ revert }}" = false
+  when: revert == "false"
 
 - name: Revert the Login Banner
   template:
     src: motdblank.j2
     dest: /etc/motd
-  when: "{{ revert }}" = true
+  when: revert == "true"
